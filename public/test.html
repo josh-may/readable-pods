@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FBI agent explains Anonymous hacker group</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #111;
+            padding: 0 0 1em 0;
+            background-color: #efe7dd;
+        }
+
+        table {
+            border-spacing: 10px;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        .lt {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        .l {
+            color: #050;
+        }
+
+        .s {
+            display: inline-block;
+        }
+
+        .c {
+            display: inline-block;
+        }
+
+        .e {
+            /*background-color: white; Changing background color */
+            border-radius: 20px;
+            /* Making border radius */
+            width: fit-content;
+            /* Making auto-sizable width */
+            height: fit-content;
+            /* Making auto-sizable height */
+            padding: 5px 30px 5px 30px;
+            /* Making space around letters */
+            font-size: 18px;
+            /* Changing font size */
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            white-space: nowrap;
+        }
+
+        .t {
+            display: inline-block;
+        }
+
+        #player {
+            position: sticky;
+            top: 20px;
+            float: right;
+        }
+    </style>
+    <script>
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                //height: '210',
+                //width: '340',
+                videoId: 'gSMRibXngP8',
+            });
+        }
+        function jumptoTime(timepoint, id) {
+            event.preventDefault();
+            history.pushState(null, null, "#" + id);
+            player.seekTo(timepoint);
+            player.playVideo();
+        }
+    </script>
+</head>
+
+<body>
+    <h2>FBI agent explains Anonymous hacker group</h2>
+    <i>Click on a part of the transcription, to jump to its video, and get an anchor to it in the address
+        bar<br><br></i>
+    <div id="player"></div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:00:03.020" id="00:00:03.020" class="lt" onclick="jumptoTime(3, this.id)">Let me ask you about your
+            now friend. Can we go as far as to say his friend? In Sabu,</a>
+        <a href="#00:00:09.820" id="00:00:09.820" class="lt" onclick="jumptoTime(9, this.id)">Hector Monsegur. What's
+            the story? What's your long story with him? Can you tell me about</a>
+        <a href="#00:00:19.340" id="00:00:19.340" class="lt" onclick="jumptoTime(19, this.id)">what is LALSEC? Who is
+            Sabu? And who's anonymous? What is anonymous?</a>
+        <a href="#00:00:26.380" id="00:00:26.380" class="lt" onclick="jumptoTime(26, this.id)">Where's the right place
+            to start that story?</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:00:28.180" id="00:00:28.180" class="lt" onclick="jumptoTime(28, this.id)">Probably anonymous.
+            Anonymous is a was a DC. It still is I guess a decentralized organization</a>
+        <a href="#00:00:34.940" id="00:00:34.940" class="lt" onclick="jumptoTime(34, this.id)">They call themselves
+            headless, but once you look into them a little ways, and they're not really headless</a>
+        <a href="#00:00:40.380" id="00:00:40.380" class="lt" onclick="jumptoTime(40, this.id)">the the</a>
+        <a href="#00:00:41.940" id="00:00:41.940" class="lt" onclick="jumptoTime(41, this.id)">Power struggle comes with
+            whoever has a hacking ability</a>
+        <a href="#00:00:46.880" id="00:00:46.880" class="lt" onclick="jumptoTime(46, this.id)">That might be you're a
+            good hacker or you have a giant botnet used for DDoS</a>
+        <a href="#00:00:52.420" id="00:00:52.420" class="lt" onclick="jumptoTime(52, this.id)">So you're gonna wield
+            more power if you can control where it goes</a>
+        <a href="#00:00:55.620" id="00:00:55.620" class="lt" onclick="jumptoTime(55, this.id)">Anonymous started doing
+            their like hacktivism stuff in 2010 or so</a>
+        <a href="#00:01:00.180" id="00:01:00.180" class="lt" onclick="jumptoTime(60, this.id)">The word hack was in the
+            media all the time then</a>
+        <a href="#00:01:03.780" id="00:01:03.780" class="lt" onclick="jumptoTime(63, this.id)">And then right around
+            then there was a federal contractor named HB Gary federal</a>
+        <a href="#00:01:08.900" id="00:01:08.900" class="lt" onclick="jumptoTime(68, this.id)">The their CEO is Aaron
+            Barr and Aaron Barr said he was gonna come out and de-anonymize anonymous</a>
+        <a href="#00:01:15.460" id="00:01:15.460" class="lt" onclick="jumptoTime(75, this.id)">He's gonna come out and
+            talk at blackhat or Defcon or one of those and say, you know who they are</a>
+        <a href="#00:01:19.460" id="00:01:19.460" class="lt" onclick="jumptoTime(79, this.id)">He figured it out or so
+            he figured it out by based on</a>
+        <a href="#00:01:22.740" id="00:01:22.740" class="lt" onclick="jumptoTime(82, this.id)">You know when people were
+            online when people were in IRC when tweets came out it was</a>
+        <a href="#00:01:27.060" id="00:01:27.060" class="lt" onclick="jumptoTime(87, this.id)">There was no scientific
+            proof behind it or anything</a>
+        <a href="#00:01:29.540" id="00:01:29.540" class="lt" onclick="jumptoTime(89, this.id)">So he's just gonna
+            falsely name people that were that were in anonymous</a>
+        <a href="#00:01:34.420" id="00:01:34.420" class="lt" onclick="jumptoTime(94, this.id)">So anonymous went on the
+            attack. They went and hacked in a to be HBG federal and they turned his life upside down</a>
+        <a href="#00:01:40.180" id="00:01:40.180" class="lt" onclick="jumptoTime(100, this.id)">They took over his
+            Twitter account and all that stuff</a>
+        <a href="#00:01:43.060" id="00:01:43.060" class="lt" onclick="jumptoTime(103, this.id)">pretty quickly</a>
+        <a href="#00:01:44.660" id="00:01:44.660" class="lt" onclick="jumptoTime(104, this.id)">And so he went on the
+            attack</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:01:46.008" id="00:01:46.008" class="lt" onclick="jumptoTime(106, this.id)">So I have very mixed
+            feelings about all of this.</a>
+        <a href="#00:01:48.888" id="00:01:48.888" class="lt" onclick="jumptoTime(108, this.id)">Okay.</a>
+        <a href="#00:01:49.528" id="00:01:49.528" class="lt" onclick="jumptoTime(109, this.id)">I get, like, part of
+            me</a>
+        <a href="#00:01:54.888" id="00:01:54.888" class="lt" onclick="jumptoTime(114, this.id)">admires the positive
+            side of the hacktivism.</a>
+        <a href="#00:01:58.968" id="00:01:58.968" class="lt" onclick="jumptoTime(118, this.id)">Okay.</a>
+        <a href="#00:02:00.328" id="00:02:00.328" class="lt" onclick="jumptoTime(120, this.id)">Is there no room for
+            admiration there?</a>
+        <a href="#00:02:02.568" id="00:02:02.568" class="lt" onclick="jumptoTime(122, this.id)">Of the fuck you to the
+            man.</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:02:04.503" id="00:02:04.503" class="lt" onclick="jumptoTime(124, this.id)">Not at the time. Again,
+            it was a violation. The 18 USC 1030. So it was my job. It's what I, you know, so at the time, no, in
+            retrospect, sure.</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:02:14.004" id="00:02:14.004" class="lt" onclick="jumptoTime(134, this.id)">But what was the
+            philosophy of the hacktivism?</a>
+        <a href="#00:02:17.724" id="00:02:17.724" class="lt" onclick="jumptoTime(137, this.id)">Was it the
+            philosophically,</a>
+        <a href="#00:02:19.564" id="00:02:19.564" class="lt" onclick="jumptoTime(139, this.id)">were they at least
+            expressing it</a>
+        <a href="#00:02:21.564" id="00:02:21.564" class="lt" onclick="jumptoTime(141, this.id)">for the good of humanity
+            or not?</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:02:23.841" id="00:02:23.841" class="lt" onclick="jumptoTime(143, this.id)">they outwardly said that
+            they were going to go after people that they thought were corrupt.</a>
+        <a href="#00:02:27.921" id="00:02:27.921" class="lt" onclick="jumptoTime(147, this.id)">So they were judge and
+            jury on corruption. They were going to go after it.</a>
+        <a href="#00:02:31.841" id="00:02:31.841" class="lt" onclick="jumptoTime(151, this.id)">Once you get inside and
+            realize what they were doing, they were going after people that they</a>
+        <a href="#00:02:37.441" id="00:02:37.441" class="lt" onclick="jumptoTime(157, this.id)">had an opportunity to go
+            after. So maybe someone had a zero day, and then they searched for servers</a>
+        <a href="#00:02:43.681" id="00:02:43.681" class="lt" onclick="jumptoTime(163, this.id)">running that zero day,
+            and then from there, let's find a target. I mean, one time, they went after</a>
+        <a href="#00:02:48.961" id="00:02:48.961" class="lt" onclick="jumptoTime(168, this.id)">a toilet paper company.
+            I still don't understand what that toilet paper company did, but it was</a>
+        <a href="#00:02:53.761" id="00:02:53.761" class="lt" onclick="jumptoTime(173, this.id)">an opportunity to make a
+            splash. Is there some way for the joke, for the lulls?</a>
+        <a href="#00:02:59.121" id="00:02:59.121" class="lt" onclick="jumptoTime(179, this.id)">It developed into that.
+            So I think the hacktivism and the anonymous stuff wasn't so much for the</a>
+        <a href="#00:03:03.841" id="00:03:03.841" class="lt" onclick="jumptoTime(183, this.id)">lulls. But from that
+            HPGare federal hack, then there were six guys that worked well together,</a>
+        <a href="#00:03:08.801" id="00:03:08.801" class="lt" onclick="jumptoTime(188, this.id)">and they formed a crew,
+            a hacking crew, and they kind of split off into their own private channels,</a>
+        <a href="#00:03:13.041" id="00:03:13.041" class="lt" onclick="jumptoTime(193, this.id)">and that was LULSEC, or
+            laughing at your security, was their motto.</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:03:18.196" id="00:03:18.196" class="lt" onclick="jumptoTime(198, this.id)">So that's L-U-L-Z-S-E-C,
+            LULZSEC.</a>
+        <a href="#00:03:22.156" id="00:03:22.156" class="lt" onclick="jumptoTime(202, this.id)">Of course it is.</a>
+        <a href="#00:03:23.076" id="00:03:23.076" class="lt" onclick="jumptoTime(203, this.id)">LULZSEC.</a>
+        <a href="#00:03:25.436" id="00:03:25.436" class="lt" onclick="jumptoTime(205, this.id)">And who founded that
+            organization?</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:03:29.924" id="00:03:29.924" class="lt" onclick="jumptoTime(209, this.id)">So Kayla and Sabu were
+            the hackers of the group and so they really did all the work on HBGary.</a>
+        <a href="#00:03:36.924" id="00:03:36.924" class="lt" onclick="jumptoTime(216, this.id)">And these are code
+            names.</a>
+        <a href="#00:03:38.924" id="00:03:38.924" class="lt" onclick="jumptoTime(218, this.id)">Yeah, these are online
+            names. They're Nicks.</a>
+        <a href="#00:03:41.924" id="00:03:41.924" class="lt" onclick="jumptoTime(221, this.id)">And so, you know, that's
+            all they knew each other as.</a>
+        <a href="#00:03:46.924" id="00:03:46.924" class="lt" onclick="jumptoTime(226, this.id)">You know, they talked as
+            those names.</a>
+        <a href="#00:03:49.924" id="00:03:49.924" class="lt" onclick="jumptoTime(229, this.id)">And they worked well
+            together and so they formed a hacking crew and that's when they started the…</a>
+        <a href="#00:03:54.924" id="00:03:54.924" class="lt" onclick="jumptoTime(234, this.id)">At first they didn't
+            name it this, but it was the 50 Days of Lulz where they would just release major, major breaches.</a>
+        <a href="#00:04:01.924" id="00:04:01.924" class="lt" onclick="jumptoTime(241, this.id)">And it stirred up the
+            media. I mean, it put hacking in the media every day.</a>
+        <a href="#00:04:06.924" id="00:04:06.924" class="lt" onclick="jumptoTime(246, this.id)">They had 400 or 500,000
+            Twitter followers.</a>
+        <a href="#00:04:10.924" id="00:04:10.924" class="lt" onclick="jumptoTime(250, this.id)">You know, and it was
+            kind of interesting.</a>
+        <a href="#00:04:14.924" id="00:04:14.924" class="lt" onclick="jumptoTime(254, this.id)">But then they started
+            swinging at the beehive and they took out some FBI affiliated sites.</a>
+        <a href="#00:04:20.924" id="00:04:20.924" class="lt" onclick="jumptoTime(260, this.id)">And then they started
+            Fuck FBI Fridays where every Friday they would release something.</a>
+        <a href="#00:04:26.924" id="00:04:26.924" class="lt" onclick="jumptoTime(266, this.id)">And we waited it with
+            bated breath. I mean, they had us hook, line, and sinker pissed.</a>
+        <a href="#00:04:30.924" id="00:04:30.924" class="lt" onclick="jumptoTime(270, this.id)">We were waiting to see
+            what was going to be dropped every Friday.</a>
+        <a href="#00:04:33.924" id="00:04:33.924" class="lt" onclick="jumptoTime(273, this.id)">It's a little
+            embarrassing looking back on it now.</a>
+        <a href="#00:04:36.924" id="00:04:36.924" class="lt" onclick="jumptoTime(276, this.id)">And this is in the early
+            2010s.</a>
+        <a href="#00:04:38.924" id="00:04:38.924" class="lt" onclick="jumptoTime(278, this.id)">Yeah, this was 2010-2011
+            around there.</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:04:42.369" id="00:04:42.369" class="lt" onclick="jumptoTime(282, this.id)">If you actually linger
+            on Anonymous,</a>
+        <a href="#00:04:46.569" id="00:04:46.569" class="lt" onclick="jumptoTime(286, this.id)">what, do you still
+            understand what the heck is Anonymous?</a>
+        <a href="#00:04:50.249" id="00:04:50.249" class="lt" onclick="jumptoTime(290, this.id)">It's just a place where
+            you hang out.</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:04:50.502" id="00:04:50.502" class="lt" onclick="jumptoTime(290, this.id)">place where you hang
+            out. I mean it's just it started on 4chan, went to 8chan and</a>
+        <a href="#00:04:53.982" id="00:04:53.982" class="lt" onclick="jumptoTime(293, this.id)">then it's really just
+            anyone. You could be an anonymous right now if you wanted</a>
+        <a href="#00:04:57.142" id="00:04:57.142" class="lt" onclick="jumptoTime(297, this.id)">to. Just you're in there
+            hanging out in the channel. Now you're probably not</a>
+        <a href="#00:04:59.942" id="00:04:59.942" class="lt" onclick="jumptoTime(299, this.id)">gonna get much cred
+            until you work your way up and prove who you are or someone</a>
+        <a href="#00:05:03.062" id="00:05:03.062" class="lt" onclick="jumptoTime(303, this.id)">vouches for you, but
+            anybody can be an anonymous. Anybody can leave anonymous.</a>
+        <a href="#00:05:07.262" id="00:05:07.262" class="lt" onclick="jumptoTime(307, this.id)">What's the least</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:05:07.951" id="00:05:07.951" class="lt" onclick="jumptoTime(307, this.id)">leadership of Anonymous.
+            Do you have a sense that there is a leadership?</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:05:10.280" id="00:05:10.280" class="lt" onclick="jumptoTime(310, this.id)">There's a power play,
+            you know, there's not someone that, you know, that says this is what we're doing, all we're doing.</a>
+        <a href="#00:05:16.280" id="00:05:16.280" class="lt" onclick="jumptoTime(316, this.id)">I love that.</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:05:16.996" id="00:05:16.996" class="lt" onclick="jumptoTime(316, this.id)">of the philosophical and
+            the technical aspect</a>
+        <a href="#00:05:21.496" id="00:05:21.496" class="lt" onclick="jumptoTime(321, this.id)">of all of this.</a>
+        <a href="#00:05:22.736" id="00:05:22.736" class="lt" onclick="jumptoTime(322, this.id)">But I think there is a
+            slippery slope</a>
+        <a href="#00:05:24.816" id="00:05:24.816" class="lt" onclick="jumptoTime(324, this.id)">to where for the lulls,
+            you can actually really hurt people.</a>
+        <a href="#00:05:29.996" id="00:05:29.996" class="lt" onclick="jumptoTime(329, this.id)">That's the terrifying
+            thing.</a>
+        <a href="#00:05:32.016" id="00:05:32.016" class="lt" onclick="jumptoTime(332, this.id)">When you attach, I'm
+            actually really terrified</a>
+        <a href="#00:05:35.456" id="00:05:35.456" class="lt" onclick="jumptoTime(335, this.id)">of the power of the
+            lull.</a>
+        <a href="#00:05:39.256" id="00:05:39.256" class="lt" onclick="jumptoTime(339, this.id)">The fun thing somehow
+            becomes a slippery slope.</a>
+        <a href="#00:05:42.016" id="00:05:42.016" class="lt" onclick="jumptoTime(342, this.id)">I haven't quite
+            understood the dynamics of that,</a>
+        <a href="#00:05:44.496" id="00:05:44.496" class="lt" onclick="jumptoTime(344, this.id)">but even in myself, if
+            you just have fun with a thing,</a>
+        <a href="#00:05:49.376" id="00:05:49.376" class="lt" onclick="jumptoTime(349, this.id)">you lose track of the
+            ethical grounding of the thing.</a>
+        <a href="#00:05:52.536" id="00:05:52.536" class="lt" onclick="jumptoTime(352, this.id)">And so it feels like
+            hacking for fun</a>
+        <a href="#00:05:54.736" id="00:05:54.736" class="lt" onclick="jumptoTime(354, this.id)">can just literally lead
+            to nuclear war,</a>
+        <a href="#00:05:58.296" id="00:05:58.296" class="lt" onclick="jumptoTime(358, this.id)">like literally
+            destabilize nature.</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:05:29.990" id="00:05:29.990" class="lt" onclick="jumptoTime(329, this.id)">Yes.</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:06:00.449" id="00:06:00.449" class="lt" onclick="jumptoTime(360, this.id)">Yeah, yada, yada, yada,
+            nuclear war, I could see it, yeah.</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:06:03.369" id="00:06:03.369" class="lt" onclick="jumptoTime(363, this.id)">Yeah.</a>
+        <a href="#00:06:04.809" id="00:06:04.809" class="lt" onclick="jumptoTime(364, this.id)">So I've been more
+            careful with the lull.</a>
+        <a href="#00:06:10.149" id="00:06:10.149" class="lt" onclick="jumptoTime(370, this.id)">Yeah, I've been more
+            careful about that.</a>
+        <a href="#00:06:11.849" id="00:06:11.849" class="lt" onclick="jumptoTime(371, this.id)">And I wonder about it
+            because in internet speak,</a>
+        <a href="#00:06:14.609" id="00:06:14.609" class="lt" onclick="jumptoTime(374, this.id)">somehow ethics can be
+            put aside</a>
+        <a href="#00:06:18.049" id="00:06:18.049" class="lt" onclick="jumptoTime(378, this.id)">through the slippery
+            slope of language.</a>
+        <a href="#00:06:21.829" id="00:06:21.829" class="lt" onclick="jumptoTime(381, this.id)">I don't know, everything
+            becomes a joke.</a>
+        <a href="#00:06:23.429" id="00:06:23.429" class="lt" onclick="jumptoTime(383, this.id)">If everything's a joke,
+            then everything's allowed</a>
+        <a href="#00:06:25.329" id="00:06:25.329" class="lt" onclick="jumptoTime(385, this.id)">and everything's
+            allowed,</a>
+        <a href="#00:06:26.689" id="00:06:26.689" class="lt" onclick="jumptoTime(386, this.id)">then you don't have a
+            sense of what is right and wrong.</a>
+        <a href="#00:06:28.609" id="00:06:28.609" class="lt" onclick="jumptoTime(388, this.id)">You lose sense of what
+            is right and wrong.</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:06:29.997" id="00:06:29.997" class="lt" onclick="jumptoTime(389, this.id)">You still have victims.
+            I mean, you're laughing at someone. Someone's the butt of this joke.</a>
+        <a href="#00:06:34.717" id="00:06:34.717" class="lt" onclick="jumptoTime(394, this.id)">You know, whether it's
+            major corporations or the individuals, I mean, some of the stuff they did</a>
+        <a href="#00:06:38.477" id="00:06:38.477" class="lt" onclick="jumptoTime(398, this.id)">was just, you know,
+            releasing people's PII and their personal identifying information and stuff</a>
+        <a href="#00:06:42.797" id="00:06:42.797" class="lt" onclick="jumptoTime(402, this.id)">like that. I mean, is it
+            a big deal? I don't know. Maybe, maybe not. But, you know, if you</a>
+        <a href="#00:06:47.917" id="00:06:47.917" class="lt" onclick="jumptoTime(407, this.id)">could choose to not have
+            your information put out there, probably wouldn't.</a>
+    </div>
+    <div class="e" style="background-color: white">
+        <span style="color: darkorange">Fridman</span><br>
+        <a href="#00:06:52.694" id="00:06:52.694" class="lt" onclick="jumptoTime(412, this.id)">We do have a sense of
+            what anonymous is today.</a>
+        <a href="#00:06:55.214" id="00:06:55.214" class="lt" onclick="jumptoTime(415, this.id)">Is it, has it ever been
+            one stable organization</a>
+        <a href="#00:06:58.454" id="00:06:58.454" class="lt" onclick="jumptoTime(418, this.id)">or is it a collection of
+            hackers that kind of emerge</a>
+        <a href="#00:07:02.974" id="00:07:02.974" class="lt" onclick="jumptoTime(422, this.id)">for particular tasks,
+            for particular,</a>
+        <a href="#00:07:05.734" id="00:07:05.734" class="lt" onclick="jumptoTime(425, this.id)">like hacktivism tasks
+            and that kind of thing?</a>
+    </div>
+    <div class="e" style="background-color: #e1ffc7">
+        <span style="color: darkgreen">Tarbell</span><br>
+        <a href="#00:07:08.439" id="00:07:08.439" class="lt" onclick="jumptoTime(428, this.id)">of stuff. It's a
+            collection of people that has some hackers in it. There's not a lot of big</a>
+        <a href="#00:07:14.279" id="00:07:14.279" class="lt" onclick="jumptoTime(434, this.id)">hackers in it. I mean,
+            there's some that'll come bounce in and bounce out. Even back then, there's</a>
+        <a href="#00:07:19.719" id="00:07:19.719" class="lt" onclick="jumptoTime(439, this.id)">probably just as many
+            reporters in it, people in the media in it, than hackers at the time,</a>
+        <a href="#00:07:26.439" id="00:07:26.439" class="lt" onclick="jumptoTime(446, this.id)">just trying to get the
+            inside scoop on things. You know, some giving the inside scoop. You know,</a>
+        <a href="#00:07:31.159" id="00:07:31.159" class="lt" onclick="jumptoTime(451, this.id)">we arrested a reporter
+            that gave over the username and password to his newspaper,</a>
+        <a href="#00:07:36.039" id="00:07:36.039" class="lt" onclick="jumptoTime(456, this.id)">and, you know, just so
+            he could break the story. He trusted him.</a>
+    </div>
+</body>
+
+</html>
