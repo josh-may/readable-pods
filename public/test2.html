@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The 10 Second Podcast #31 - I'll Clip You</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #111;
+            padding: 0 0 1em 0;
+            background-color: #efe7dd;
+        }
+
+        table {
+            border-spacing: 10px;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        .lt {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        .l {
+            color: #050;
+        }
+
+        .s {
+            display: inline-block;
+        }
+
+        .c {
+            display: inline-block;
+        }
+
+        .e {
+            /*background-color: white; Changing background color */
+            border-radius: 20px;
+            /* Making border radius */
+            width: fit-content;
+            /* Making auto-sizable width */
+            height: fit-content;
+            /* Making auto-sizable height */
+            padding: 5px 30px 5px 30px;
+            /* Making space around letters */
+            font-size: 18px;
+            /* Changing font size */
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            white-space: nowrap;
+        }
+
+        .t {
+            display: inline-block;
+        }
+
+        #player {
+            position: sticky;
+            top: 20px;
+            float: right;
+        }
+    </style>
+    <script>
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                //height: '210',
+                //width: '340',
+                videoId: 'sO1HAVDImk8',
+            });
+        }
+        function jumptoTime(timepoint, id) {
+            event.preventDefault();
+            history.pushState(null, null, "#" + id);
+            player.seekTo(timepoint);
+            player.playVideo();
+        }
+    </script>
+</head>
+
+<body>
+    <h2>The 10 Second Podcast #31 - I'll Clip You</h2>
+    <i>Click on a part of the transcription, to jump to its video, and get an anchor to it in the address
+        bar<br><br></i>
+
+    <a id="00:00:09.567" class="lt" onclick={()=> jumptoTime(9, "00:00:09.567")}>That's so out of t-</a>
+</body>
+
+</html>

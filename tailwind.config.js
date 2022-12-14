@@ -39,6 +39,7 @@ module.exports = {
               color: theme('colors.primary.500'),
               '&:hover': {
                 color: `${theme('colors.primary.600')} !important`,
+                textDecoration: 'underline',
               },
               code: { color: theme('colors.primary.400') },
             },

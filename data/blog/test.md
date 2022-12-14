@@ -10,9 +10,6 @@ twinkled, and his usually pale face was flushed and animated...'
 
 ---
 
-_Source_: [Lex Fridman Podcast](https://www.youtube.com/watch?v=4KiO8GRgwDk)
+import TestGood from '../components/testGood.js'
 
-## Introduction
-
-The Time Traveller (for so it will be convenient to speak of him) was
-expounding a recondite matter to us.
+<TestGood />
